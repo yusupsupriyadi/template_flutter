@@ -11,12 +11,19 @@ class HomeView extends GetView<HomeController> {
         builder: (context) {
           return Scaffold(
             appBar: AppBar(
-              title: const Text('HomeView'),
-              centerTitle: true,
+              title: Row(
+                children: [
+                  Column(
+                    children: [
+                      Text('HomeView'),
+                    ],
+                  ),
+                ],
+              ),
             ),
             body: const Center(
               child: Text(
-                'Hello Word',
+                'Hello',
                 style: TextStyle(fontSize: 20),
               ),
             ),
