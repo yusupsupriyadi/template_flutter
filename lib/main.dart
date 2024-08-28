@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:get_storage/get_storage.dart';
-import 'app/routes/app_pages.dart';
 import 'package:flutter_dotenv/flutter_dotenv.dart';
 import 'package:permission_handler/permission_handler.dart';
+import 'package:template_flutter/core.dart';
 
 void main() async {
   await GetStorage.init();
@@ -14,6 +14,9 @@ void main() async {
     GetMaterialApp(
       title: "YS | Template Flutter GetX",
       useInheritedMediaQuery: true,
+      theme: ThemeData(
+        fontFamily: 'Poppins',
+      ),
       debugShowCheckedModeBanner: false,
       initialRoute: AppPages.INITIAL,
       getPages: AppPages.routes,

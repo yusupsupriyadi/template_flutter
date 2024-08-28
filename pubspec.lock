@@ -41,6 +41,14 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "2.11.0"
+  badges:
+    dependency: "direct main"
+    description:
+      name: badges
+      sha256: a7b6bbd60dce418df0db3058b53f9d083c22cdb5132a052145dc267494df0b84
+      url: "https://pub.dev"
+    source: hosted
+    version: "3.1.2"
   boolean_selector:
     dependency: transitive
     description:
@@ -605,6 +613,14 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "0.7.0"
+  timeline_tile:
+    dependency: "direct main"
+    description:
+      name: timeline_tile
+      sha256: "85ec2023c67137397c2812e3e848b2fb20b410b67cd9aff304bb5480c376fc0c"
+      url: "https://pub.dev"
+    source: hosted
+    version: "2.0.0"
   typed_data:
     dependency: transitive
     description:
