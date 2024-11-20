@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:template_flutter/assets.dart';
-import 'package:template_flutter/shared/widget/color/color_widget.dart';
+import 'package:template_flutter/shared/style/color/color_widget.dart';
 
 class TextBorder extends StatefulWidget {
   // WIDGET: TEXT BORDER
